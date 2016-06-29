@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Village - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/Script1.res" /d "NDEBUG" "D:\Мои проекты\Village\Script1.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMIN~1.MIC\LOCALS~1\Temp\RSP7E3.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Village.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Мои проекты\Village\game.cpp"
+"D:\Мои проекты\Village\glaction.cpp"
+"D:\Мои проекты\Village\glmath.cpp"
+"D:\Мои проекты\Village\globjects.cpp"
+"D:\Мои проекты\Village\glscene.cpp"
+"D:\Мои проекты\Village\main.cpp"
+"D:\Мои проекты\Village\sound.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMIN~1.MIC\LOCALS~1\Temp\RSP7E3.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMIN~1.MIC\LOCALS~1\Temp\RSP7E4.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Village.pdb" /machine:I386 /out:"Release/Village.exe" 
+".\Release\game.obj"
+".\Release\glaction.obj"
+".\Release\glmath.obj"
+".\Release\globjects.obj"
+".\Release\glscene.obj"
+".\Release\main.obj"
+".\Release\sound.obj"
+".\Release\Script1.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMIN~1.MIC\LOCALS~1\Temp\RSP7E4.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+game.cpp
+glaction.cpp
+glmath.cpp
+globjects.cpp
+glscene.cpp
+main.cpp
+sound.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Village.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
